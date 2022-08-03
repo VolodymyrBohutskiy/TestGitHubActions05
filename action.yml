@@ -1,0 +1,14 @@
+name: My First Action
+author: Volodymyr Bohutskyi
+description: "Action that does some cool stuff!"
+inputs:
+  name:
+    description: "Name"
+    required: false
+    default: "Volodymyr"
+runs:
+  using: "node16"
+  main: "main.js"
+branding:
+  color: "green"
+  icon: "send"
